@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.font-display {
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    letter-spacing: 0.03em;
+  }
+
+
+.navlist {
+    a {
+        transition: all 200ms linear;
+        position: relative;
+        
+        &::after {
+            content: '';
+            height: 2px;
+            width: 110%;
+            position: absolute;
+            background-color: #02B2AB;
+            bottom: -5px;
+            left: -5%;
+            transform: scale(0);
+            transform-origin: center;
+            z-index: -1;
+            transition: all 200ms cubic-bezier(0.175, 0.885, 0.32, 1.175);
+        }
+
+        &:hover {
+            &::after {
+                transform: none;
+            }
+        }
+    }
+}
