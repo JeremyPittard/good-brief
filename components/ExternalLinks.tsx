@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 const ExternalLinks = () => {
   return (
     <ul className="navlist p-4 text-sm flex">
@@ -18,6 +20,9 @@ const ExternalLinks = () => {
         >
           instagram
         </a>
+      </li>
+      <li className="p-2">
+        <Link href={"/advertising"}>advertising</Link>
       </li>
       <li className="p-2">merch - coming soon</li>
     </ul>
