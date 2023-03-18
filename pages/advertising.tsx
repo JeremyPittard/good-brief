@@ -1,11 +1,8 @@
-import React from "react";
 import AdvertisingForm from "../components/AdvertisingForm";
-import PageHeader from "../components/PageHeader";
 
 const Advertising = () => {
   return (
     <>
-      <PageHeader />
       <main className="content-container max-w-md mx-auto">
         <div className="className= px-4 mt-6 text-xl">
           <h2 className="underline mb-6 text-3xl">Advertising</h2>
