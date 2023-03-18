@@ -12,7 +12,7 @@ const PageHeader = () => {
         <meta name="description" content="Good Brief" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <header className="bg-brand-teal p-4">
+      <header className="bg-brand-teal p-4 mx-auto">
         <Link href={"/"}>
           <Image
             src="/img/small-square.svg"
