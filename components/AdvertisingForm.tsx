@@ -31,7 +31,9 @@ const AdvertisingForm = () => {
         <ValidationError prefix="Email" field="email" errors={state.errors} />
       </div>
       <div className="flex flex-col mt-4">
-        <label htmlFor="Message">How can we help?</label>
+        <label htmlFor="Message">
+          Why would Good Brief be a good fit for your brand?
+        </label>
 
         <textarea
           id="message"
