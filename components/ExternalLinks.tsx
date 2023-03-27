@@ -5,7 +5,7 @@ const ExternalLinks = () => {
     <ul className="navlist p-4 text-sm flex">
       <li className="p-2">
         <a
-          href="https://www.facebook.com/profile.php?id=100088579301581"
+          href="https://www.facebook.com/ohgoodbrief"
           target={"_blank"}
           rel={"noreferrer"}
         >
